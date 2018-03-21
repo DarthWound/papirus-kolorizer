@@ -31,7 +31,7 @@ Launch the script:
 
 `cd $(xdg-user-dir DOWNLOAD) && ./papirus-kolorizer.sh`
 
-*It will replace your existing Papirus installation.*
+*It will replace your existing Papirus installation if any.*
 
 Default color is "Bootstrap purple" #7952B3 and shades. To change colors, open the script in a text editor and modify the HEX color codes in variables *(lines beginning with "readonly" at the top of the script)*. Some color codes are commented in the script to help you quickly find something you may like.
 
