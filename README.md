@@ -17,21 +17,23 @@ This bash script provides an easy way to change [Papirus icon theme](https://git
 
 ## Installation
 
-You don't have to download Papirus, this script does everything for you.
+```
+cd $(xdg-user-dir DOWNLOAD)
+wget https://raw.githubusercontent.com/DarthWound/papirus-kolorizer/master/papirus-kolorizer.sh
+chmod +x papirus-kolorizer.sh
+```
 
-`cd $(xdg-user-dir DOWNLOAD)`
+You don't have to download Papirus, the script does everything for you.
 
-`wget https://raw.githubusercontent.com/DarthWound/papirus-kolorizer/master/papirus-kolorizer.sh`
-
-If script isn't executable, change permissions:
-
-`chmod +x papirus-kolorizer.sh`
+If you already have this script installed, remove the old version first.
 
 ## Usage
 
 Launch the script:
 
-`cd $(xdg-user-dir DOWNLOAD) && ./papirus-kolorizer.sh`
+```
+cd $(xdg-user-dir DOWNLOAD) && ./papirus-kolorizer.sh
+```
 
 *It will replace your existing Papirus installation if any.*
 
