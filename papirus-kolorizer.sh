@@ -26,6 +26,7 @@ readonly SymbolColor="2F1F47"
 ## Ubuntu MATE green = 87A556
 ## Ubuntu MATE red = DD4814
 ## Budgie slate = 404552
+## GNOME Adwaita folders = E3D1B6
 ## GNOME Adwaita blue = 4A90D9
 ## KDE Plasma blue = 3DAEE9
 ## Papirus black = 505050
