@@ -1,10 +1,14 @@
 ![title](papirusK-title.gif)
 
 ---
+---
+---
 
 :information_source: **Need matching themes and wallpapers?
 Check [materia-kolorizer](https://github.com/DarthWound/materia-kolorizer) and [wallpaper-kolorizer](https://github.com/DarthWound/wallpaper-kolorizer)!**
 
+---
+---
 ---
 
 This bash script provides an easy way to change [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) folders color.
