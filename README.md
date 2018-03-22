@@ -11,7 +11,9 @@ This bash script provides an easy way to change [Papirus icon theme](https://git
 
 ![showcase](kolorizerSW.gif)
 
--> [fullsize screenshot](kolorizerSC.png?raw=true) <-
+-> [fullsize screenshot 1](kolorizerSC.png?raw=true) *(bootstrap purple + wp-foxy)*
+
+-> [fullsize screenshot 2](kolorizerSK.png?raw=true) *(bulma green + wp-angly)*
 
 ## Installation
 
