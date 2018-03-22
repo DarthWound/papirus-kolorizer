@@ -3,11 +3,12 @@
 
 # 1- Go to https://www.w3schools.com/colors/colors_picker.asp
 # 2- Enter the color of your choice in the picker
-# 3- Refer to the "lighter/darker" table
-# 3- Use color-10% for "Back" and color-30% for "Symbol"
+# 3- Refer to the "lightness" and "saturation" tables
+# 4- For "front" use the color you chose, for "back" select "front" -10% lightness
+# 5- For "symbol" select "front" -30% lightness, then apply "symbol" -20% saturation
 readonly FrontColor="7952B3"
 readonly BackColor="5E3E8E"
-readonly SymbolColor="2F1F47"
+readonly SymbolColor="31293D"
 
 ### Some colors
 ## Material Design palette -> https://material.io/guidelines/style/color.html#color-color-palette
