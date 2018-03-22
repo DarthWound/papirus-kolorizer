@@ -2,7 +2,7 @@
 
 ---
 
-**Need matching themes and wallpapers?
+:information_source: **Need matching themes and wallpapers?
 Check [materia-kolorizer](https://github.com/DarthWound/materia-kolorizer) and [wallpaper-kolorizer](https://github.com/DarthWound/wallpaper-kolorizer)!**
 
 ---
