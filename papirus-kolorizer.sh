@@ -12,12 +12,19 @@ readonly SymbolColor="262626"
 ### Some colors
 ## Material Design palette -> https://material.io/guidelines/style/color.html#color-color-palette
 ## Fluent Design palette -> https://docs.microsoft.com/en-us/windows/uwp/design/style/color#accent-color
+## Arch blue = 1793D1 (back:0F618A)
+## Crunchbang dark = 2E3436 (back:0C0D0E)
+## Crunchbang light = BFBFBF (back:999999)
 ## Debian red = D70A53 (back:920738)
 ## Fedora blue = 3C6EB4 (back:264673)
+## Gentoo purple = 54487A (back:372F50)
 ## openSUSE lightgreen = 73BA25 (back:4E8019)
 ## openSUSE darkgreen = 6DA741 (back:486E2B)
 ## openSUSE lightcyan = 35B9AB (back:22776E)
 ## openSUSE darkcyan = 00A489 (back:004D40)
+## Pop OS brown = 574F4A (back:292623)
+## Pop OS cyan = 48B9C7 (back:308F9C)
+## Pop OS yellow = FAA41A (back:C87D04)
 ## RedHat red = CC0000 (back:800000)
 ## RedHat lightblue = A3DBE8 (back:5CC0D6)
 ## RedHat darkblue = 004153 (back:00141A)
@@ -43,6 +50,8 @@ readonly SymbolColor="262626"
 ## Bulma green = 00D1B2 (back:00806C)
 ## Lamborghini gold = DDB321 (back:9B7F17)
 ## Mozilla MDN blue = 3F87A6 (back:2A5A6F)
+## Mozilla MDN grey = 9B9B9B (back:737373)
+## Mozilla MDN red = E66465 (back:DB2424)
 ## Mozilla MDN yellow = F6B73C (back:DB960A)
 ## OnePlus red = EB0029 (back:99001A)
 ## VALVe brown = 745E4E (back:4D3E33)
