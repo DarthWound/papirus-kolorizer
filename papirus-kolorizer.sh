@@ -1,61 +1,59 @@
 #!/bin/bash
 # Change Papirus folders color
 
+# For "back" color:
 # 1- Go to https://www.w3schools.com/colors/colors_picker.asp
-# 2- Enter the color of your choice in the picker
-# 3- Refer to the "lightness" and "saturation" tables
-# 4- For "front" use the color you chose, for "back" select "front" -10% lightness
-# 5- For "symbol" select "front" -30% lightness, then apply "symbol" -20% saturation
+# 2- Enter the "front" color of your choice in the picker
+# 3- Refer to the "lighter/darker" table and select around -15%
 readonly FrontColor="7952B3"
-readonly BackColor="5E3E8E"
-readonly SymbolColor="31293D"
+readonly BackColor="52367C"
+readonly SymbolColor="262626"
 
 ### Some colors
 ## Material Design palette -> https://material.io/guidelines/style/color.html#color-color-palette
-## Debian red = D70A53 (back:AA0841;symbol:410B1E)
-## Fedora blue = 3C6EB4 (back:2D5286;symbol:1B2432)
-## openSUSE lightgreen = 73BA25 (back:5B951D;symbol:273715)
-## openSUSE darkgreen = 6DA741 (back:548132;symbol:25301D)
-## openSUSE lightcyan = 35B9AB (back:288A81;symbol:193431)
-## openSUSE darkcyan = 00A489 (back:00806A;symbol:031713)
-## RedHat red = CC0000 (back:990000;symbol:2E0505)
-## RedHat lightblue = A3DBE8 (back:70C8DB;symbol:4590A1)
-## RedHat darkblue = 004153 (back:002833;symbol:031217)
-## SUSE green = 02D35F (back:029745;symbol:062D18)
-## Ubuntu orange = E95420 (back:BA3F12;symbol:522514)
-## Ubuntu purple = 772953 (back:4C1A35;symbol:100A0D)
-## Ubuntu MATE green = 87A556 (back:6D8646;symbol:34382E)
-## Ubuntu MATE red = DD4814 (back:A3370F;symbol:3D1B0F)
-## Budgie slate = 404552 (back:2D3039;symbol:0C0D0D)
-## GNOME Adwaita folders = E3D1B6 (back:D5B990;symbol:9F8660)
-## GNOME Adwaita gtk blue = 4A90D9 (back:2870BD;symbol:233F5C)
-## GNOME Adwaita shell blue = 256AB1 (back:1B4D7E;symbol:0E1A25)
-## KDE Plasma blue = 3DAEE9 (back:199EE6;symbol:1F5A7A)
-## Papirus black = 505050 (https://github.com/PapirusDevelopmentTeam/papirus-folders)
-## Papirus grey = 8D8D8D (https://github.com/PapirusDevelopmentTeam/papirus-folders)
-## Papirus brown = AE8D6E (https://github.com/PapirusDevelopmentTeam/papirus-folders)
-## Papirus green = 84B05F (https://github.com/PapirusDevelopmentTeam/papirus-folders)
-## Papirus teal = 009F85 (https://github.com/PapirusDevelopmentTeam/papirus-folders)
-## Papirus cyan = 00BAD2 (https://github.com/PapirusDevelopmentTeam/papirus-folders)
-## Papirus blue = 4F92DE (https://github.com/PapirusDevelopmentTeam/papirus-folders)
-## Miami80 blue = 46AECC (back:3198B4;symbol:294C56)
-## Miami80 pink = CC468E (back:B43177;symbol:562941)
-## Apple blue = 0070C9 (back:005499;symbol:051C2E)
-## Bootstrap purple = 7952B3 (back:5E3E8E;symbol:31293D)
-## Bootstrap yellow = FFE484 (back:FFD84D;symbol:CFA717)
-## Bootstrap grey = 6C757D (back:535A5F;symbol:242628)
-## Bulma green = 00D1B2 (back:009982;symbol:052E28)
-## KNACSS green = 13747D (back:0D5259;symbol:061314)
-## KNACSS red = CF361B (back:9E2915;symbol:3B1811)
-## Lamborghini gold = DDB321 (back:B1911B;symbol:4F4317)
-## Mozilla beige = D7D3C8 (back:BFB8A6;symbol:868279)
-## OnePlus red = EB0029 (back:B3001E;symbol:450812)
-## Pantone ultraviolet = 5F4B8B (back:443663;symbol:19171C)
-## Pantone rose quartz = F7CAC9 (back:F2A8A6;symbol:D16361)
-## Pantone serenity = 92A8D1 (back:6F8CC3;symbol:52607A)
-## Sherwin taupe = 8C7E78 (back:6E635E;symbol:363230)
-## Gunmetal = 2C3539 (back:161B1D;symbol:0C0D0D)
-## DarthWound red = A63F3F (back:813131;symbol:301D1D)
+## Fluent Design palette -> https://docs.microsoft.com/en-us/windows/uwp/design/style/color#accent-color
+## Debian red = D70A53 (back:920738)
+## Fedora blue = 3C6EB4 (back:264673)
+## openSUSE lightgreen = 73BA25 (back:4E8019)
+## openSUSE darkgreen = 6DA741 (back:486E2B)
+## openSUSE lightcyan = 35B9AB (back:22776E)
+## openSUSE darkcyan = 00A489 (back:004D40)
+## RedHat red = CC0000 (back:800000)
+## RedHat lightblue = A3DBE8 (back:5CC0D6)
+## RedHat darkblue = 004153 (back:00141A)
+## SUSE green = 02D35F (back:017E3A)
+## Ubuntu orange = E95420 (back:A23710)
+## Ubuntu purple = 772953 (back:391427)
+## Ubuntu Budgie blue = 4D90D6 (back:2A70BB)
+## Ubuntu Budgie red = A34F6D (back:783A50)
+## Ubuntu Budgie slate = 383C4A (back:16171D)
+## Ubuntu MATE green = 87A556 (back:60753E)
+## Ubuntu MATE red = DD4814 (back:8C2F0D)
+## GNOME Adwaita beige = E3D1B6 (back:CEAE7E)
+## GNOME Adwaita blue = 4A90D9 (back:2464A8)
+## KDE Plasma blue = 3DAEE9 (back:178ECF)
+## Windows select blue = CDE4FC (back:87BDF8)
+## Windows folder yellow = FFE79B (back:FFD54D)
+## MiamiVice bluegreen = 0BD3D3 (back:089191)
+## MiamiVice pink = F890E7 (back:F33FD5)
+## Apple website blue = 0070C9 (back:004680)
+## Bootstrap purple = 7952B3 (back:52367C)
+## Bootstrap yellow = FFE484 (back:FFD333)
+## Bootstrap grey = 6C757D (back:474D52)
+## Bulma green = 00D1B2 (back:00806C)
+## Lamborghini gold = DDB321 (back:9B7F17)
+## Mozilla MDN blue = 3F87A6 (back:2A5A6F)
+## Mozilla MDN yellow = F6B73C (back:DB960A)
+## OnePlus red = EB0029 (back:99001A)
+## VALVe brown = 745E4E (back:4D3E33)
+## VALVe green = D3D6CA (back:ACB19A)
+## VALVe orange = CF381E (back:862413)
+## Pantone rose quartz = F7CAC9 (back:EE9290)
+## Pantone serenity = 92A8D1 (back:5D7EBB)
+## Sherwin taupe = 8C7E78 (back:605652)
+## Gunmetal = 2C3539 (back:0B0D0E)
+## DarthWound red = A63F3F (back:6F2A2A)
+## Papirus Folders -> https://github.com/PapirusDevelopmentTeam/papirus-folders
 
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | sh
 
