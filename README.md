@@ -7,6 +7,8 @@
 :information_source: **Need matching themes and wallpapers?
 Check [materia-kolorizer](https://github.com/DarthWound/materia-kolorizer) and [wallpaper-kolorizer](https://github.com/DarthWound/wallpaper-kolorizer)!**
 
+--- You can use "[all-in-one kolorizer](https://gist.github.com/DarthWound/01697d659b9f17dd4159b68b13745dfa)" script to get everything.
+
 ---
 ---
 ---
