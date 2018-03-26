@@ -7,7 +7,7 @@
 # 3- Refer to the "lighter/darker" table and select around -15%
 readonly FrontColor="7952B3"
 readonly BackColor="52367C"
-readonly SymbolColor="262626"
+readonly SymbolColor="303030"
 
 ### Some colors
 ## Material Design palette -> https://material.io/guidelines/style/color.html#color-color-palette
@@ -42,14 +42,15 @@ readonly SymbolColor="262626"
 ## GNOME Adwaita beige = E3D1B6 (back:CEAE7E)
 ## GNOME Adwaita blue = 4A90D9 (back:2464A8)
 ## KDE Plasma blue = 3DAEE9 (back:178ECF)
-## macOS darkblue = 0069D9 (back:004A99)
-## macOS grey = 6A6A6A (back:404040)
-## macOS lightblue = 79D3FB (back:39BFF9)
 ## Windows select blue = CDE4FC (back:87BDF8)
 ## Windows folder yellow = FFE79B (back:FFD54D)
 ## MiamiVice bluegreen = 0BD3D3 (back:089191)
 ## MiamiVice pink = F890E7 (back:F33FD5)
-## Apple website blue = 0070C9 (back:004680)
+## Apple website bluedark = 0070C9 (back:004680)
+## Apple website bluelight = 66BBFF (back:1A98FF)
+## Apple website greydark = 555555 (back:333333)
+## Apple website greylight = 888888 (back:666666)
+## Apple website red = CF102D (back:8E0B1E)
 ## Bootstrap purple = 7952B3 (back:52367C)
 ## Bootstrap yellow = FFE484 (back:FFD333)
 ## Bootstrap grey = 6C757D (back:474D52)
