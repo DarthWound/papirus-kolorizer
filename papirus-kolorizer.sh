@@ -68,6 +68,7 @@ readonly SymbolColor="303030"
 ## Pantone serenity = 92A8D1 (back:5D7EBB)
 ## Sherwin taupe = 8C7E78 (back:605652)
 ## Gunmetal = 2C3539 (back:0B0D0E)
+## Graphite = 577287 (back:3C4F5D)
 ## DarthWound red = A63F3F (back:6F2A2A)
 ## Papirus Folders -> https://github.com/PapirusDevelopmentTeam/papirus-folders
 
