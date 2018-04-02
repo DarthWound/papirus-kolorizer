@@ -51,6 +51,7 @@ readonly SymbolColor="303030"
 ## Apple website grey = 888888 (back:666666)
 ## Apple website orange = E85D00 (back:993D00)
 ## Apple website red = CF102D (back:8E0B1E)
+## Bondi Blue = 0095B6 (back:005366)
 ## Bootstrap purple = 7952B3 (back:52367C)
 ## Bootstrap yellow = FFE484 (back:FFD333)
 ## Bootstrap grey = 6C757D (back:474D52)
