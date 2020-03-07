@@ -37,7 +37,7 @@ If you already have this script installed, remove the old version first.
 
 ## Usage
 
-Modify the script to set your own colors.
+Modify the script to set your own colors *(only the variables starting with "readonly")*.
 
 Then launch it:
 
