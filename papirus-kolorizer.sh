@@ -5,9 +5,9 @@
 # 1- Go to https://www.w3schools.com/colors/colors_picker.asp
 # 2- Enter the "front" color of your choice in the picker
 # 3- Refer to the "lighter/darker" table and select around -15%
-readonly FrontColor="7952B3"
-readonly BackColor="52367C"
-readonly SymbolColor="303030"
+readonly FrontColor="A30000"
+readonly BackColor="820000"
+readonly SymbolColor="D0D0D0" # "303030" -> dark grey ; "D0D0D0" -> light grey
 
 ### Some colors
 ## Material Design palette -> https://material.io/guidelines/style/color.html#color-color-palette
@@ -25,9 +25,10 @@ readonly SymbolColor="303030"
 ## Pop OS brown = 574F4A (back:292623)
 ## Pop OS cyan = 48B9C7 (back:308F9C)
 ## Pop OS yellow = FAA41A (back:C87D04)
-## RedHat mediumred = A30000 (back:4D0000)
-## RedHat lightblue = A3DBE8 (back:5CC0D6)
-## RedHat darkblue = 004153 (back:00141A)
+## RedHat mediumred = A30000
+## RedHat darkred = 820000
+## RedHat lightblue = A3DBE8
+## RedHat darkblue = 004153
 ## SteamOS green = 5C7E10 (back:314409)
 ## SteamOS bluedark = 252C3F (back:090B10)
 ## SteamOS bluelight = 6699FF (back:1A66FF)
@@ -70,8 +71,7 @@ readonly SymbolColor="303030"
 ## Sherwin taupe = 8C7E78 (back:605652)
 ## Gunmetal = 2C3539 (back:0B0D0E)
 ## Graphite = 577287 (back:3C4F5D)
-## DarthWound red = A63F3F (back:6F2A2A)
-## Papirus Folders -> https://github.com/PapirusDevelopmentTeam/papirus-folders
+## https://www.materialui.co/flatuicolors
 
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | sh
 
