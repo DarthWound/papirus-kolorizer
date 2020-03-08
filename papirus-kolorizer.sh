@@ -5,9 +5,9 @@
 # 1- Go to https://www.w3schools.com/colors/colors_picker.asp
 # 2- Enter the "front" color of your choice in the picker
 # 3- Refer to the "lighter/darker" table and select around -15%
-readonly FrontColor="A30000"
+readonly FrontColor="CC0000"
 readonly BackColor="820000"
-readonly SymbolColor="D0D0D0" # "303030" -> dark grey ; "D0D0D0" -> light grey
+readonly SymbolColor="303030" # "303030" -> dark ; "D0D0D0" -> light
 
 ### Some colors
 ## Material Design palette -> https://material.io/guidelines/style/color.html#color-color-palette
@@ -25,10 +25,10 @@ readonly SymbolColor="D0D0D0" # "303030" -> dark grey ; "D0D0D0" -> light grey
 ## Pop OS brown = 574F4A (back:292623)
 ## Pop OS cyan = 48B9C7 (back:308F9C)
 ## Pop OS yellow = FAA41A (back:C87D04)
-## RedHat mediumred = A30000
+## RedHat lightred = CC0000
 ## RedHat darkred = 820000
-## RedHat lightblue = A3DBE8
-## RedHat darkblue = 004153
+## RedHat lightblue = 03B9E4
+## RedHat darkblue = 0678AB
 ## SteamOS green = 5C7E10 (back:314409)
 ## SteamOS bluedark = 252C3F (back:090B10)
 ## SteamOS bluelight = 6699FF (back:1A66FF)
