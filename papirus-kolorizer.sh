@@ -5,9 +5,9 @@
 # 1- Go to https://www.w3schools.com/colors/colors_picker.asp
 # 2- Enter the "front" color of your choice in the picker
 # 3- Refer to the "lighter/darker" table and select around -15%
-readonly FrontColor="CC0000"
-readonly BackColor="820000"
-readonly SymbolColor="303030" # "303030" -> dark ; "D0D0D0" -> light
+readonly FrontColor="8C8C8C"
+readonly BackColor="737373"
+readonly SymbolColor="333333" # "333333" -> dark ; "CCCCCC" -> light
 
 ### Some colors
 ## Material Design palette -> https://www.materialui.co/colors
@@ -35,6 +35,7 @@ readonly SymbolColor="303030" # "303030" -> dark ; "D0D0D0" -> light
 ## SUSE green = 02D35F
 ## Ubuntu orange = E95420
 ## Ubuntu purple = 772953
+## Ubuntu grey = AEA79F
 ## Ubuntu Budgie blue = 4D90D6
 ## Ubuntu Budgie red = A34F6D
 ## Ubuntu Budgie slate = 383C4A
@@ -43,8 +44,8 @@ readonly SymbolColor="303030" # "303030" -> dark ; "D0D0D0" -> light
 ## GNOME Adwaita beige = DBD1C7
 ## GNOME Adwaita blue = 3584E4
 ## KDE Plasma blue = 3DAEE9
-## Windows select blue = 1979CA
-## Windows folder yellow = FFE18C
+## Windows select blue = 1C80E3
+## Windows folder yellow = FFBF00
 ## MiamiVice bluegreen = 0BD3D3
 ## MiamiVice pink = F890E7
 ## Apple website blue = 0070C9
@@ -72,6 +73,14 @@ readonly SymbolColor="303030" # "303030" -> dark ; "D0D0D0" -> light
 ## Sherwin taupe = 8C7E78
 ## Gunmetal = 2C3539
 ## Graphite = 577287
+## Lounge Tango light = 4287D7
+## Lounge Tango dark = 2962A3
+## Lounge Salsa light = 92548C
+## Lounge Salsa dark = 71416B
+## Lounge Rumba light = 7969C9
+## Lounge Rumba dark = 5445A1
+## Lounge Jive light = 3EA894
+## Lounge Jive dark = 297064
 ## https://www.materialui.co/flatuicolors
 
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | sh
